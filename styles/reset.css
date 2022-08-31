@@ -108,7 +108,8 @@ section {
 }
 body {
   line-height: 1;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: 'TT Norms Pro', serif;
+  color: #5d577e;
 }
 ol,
 ul {
