@@ -18,7 +18,8 @@ figure img {
 
 section {
   background-color: white;
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
+
   display: flex;
   flex-direction: column;
   gap: 5rem;
