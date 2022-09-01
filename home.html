@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        href="http://fonts.cdnfonts.com/css/tt-norms-pro"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles/reset.css" />
+      <link rel="stylesheet" href="styles/home.css" />
+      <link rel="stylesheet" href="styles/global.css" />
+      <link rel="stylesheet" href="styles/components/productCard.css" />
+
+      <title>Fruit hub</title>
+    </head>
+  </head>
+  <body>
+    <header>
+      <div class="header-user-content">
+        <div class="hamburguer">
+          <img src="/assets/hamburguerMenuIcon.svg" alt="Open menu" />
+          <p>Welcome, Chris.</p>
+        </div>
+        <button class="cart-button">
+          <img src="/assets/cartIcon.svg" alt="My cart icon" />
+        </button>
+      </div>
+      <div class="search-wrapper">
+        <!-- Todo: Add magnifying glass icon -->
+        <input
+          type="search"
+          class="search-input input"
+          name="searchProduct"
+          placeholder="Search for fruit salad combos"
+          id="searchProduct"
+        />
+        <button class="search-settings-button">
+          <img src="/assets/settingsIcon.svg" alt="Settings icon" />
+        </button>
+      </div>
+      <div class="filters">
+        <button class="filter">All</button>
+        <button class="filter">Salad Combo</button>
+        <button class="filter">Berry Combo</button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <strong>Recommended Combo</strong>
+        <div class="separator"></div>
+        <div class="product-list">
+          <a href="#" class="product-card">
+            <img
+              src="/assets/salad1.png"
+              class="product-card-image"
+              alt="salad of fruit"
+            />
+            <strong class="product-card-title">Hoaaaaney lime combo</strong>
+            <div class="product-list-price">
+              <p>$2,000</p>
+              <button aria-label="Add to cart" class="product-list-cart-button">
+                <img src="assets/plusIcon.svg" alt="add" />
+              </button>
+            </div>
+            <button
+              aria-label="Add to favorite"
+              class="product-list-favorite-button"
+            >
+              <img src="assets/heartIcon.svg" alt="Favorite" />
+            </button>
+          </a>
+          <a href="#" class="product-card">
+            <img
+              src="/assets/salad1.png"
+              class="product-card-image"
+              alt="salad of fruit"
+            />
+            <strong class="product-card-title">Hoaaaaney lime combo</strong>
+            <div class="product-list-price">
+              <p>$2,000</p>
+              <button aria-label="Add to cart" class="product-list-cart-button">
+                <img src="assets/plusIcon.svg" alt="add" />
+              </button>
+            </div>
+            <button
+              aria-label="Add to favorite"
+              class="product-list-favorite-button"
+            >
+              <img src="assets/heartIcon.svg" alt="Favorite" />
+            </button>
+          </a>
+        </div>
+      </section>
+      <section class="featured-products">
+        <div class="products-carousel-filters">
+          <button
+            class="products-carousel-filter products-carousel-filter--active"
+          >
+            Hottest
+          </button>
+          <button class="products-carousel-filter">Popular</button>
+          <button class="products-carousel-filter">New Combo</button>
+        </div>
+        <div class="product-list">
+          <a href="#" class="product-card orange">
+            <img
+              src="/assets/salad1.png"
+              class="product-card-image"
+              alt="salad of fruit"
+            />
+            <strong class="product-card-title">Hoaaaaney lime combo</strong>
+            <div class="product-list-price">
+              <p>$2,000</p>
+              <button aria-label="Add to cart" class="product-list-cart-button">
+                <img src="assets/plusIcon.svg" alt="add" />
+              </button>
+            </div>
+            <button
+              aria-label="Add to favorite"
+              class="product-list-favorite-button"
+            >
+              <img src="assets/heartIcon.svg" alt="Favorite" />
+            </button>
+          </a>
+          <a href="#" class="product-card pink">
+            <img
+              src="/assets/salad1.png"
+              class="product-card-image"
+              alt="salad of fruit"
+            />
+            <strong class="product-card-title">Hoaaaaney lime combo</strong>
+            <div class="product-list-price">
+              <p>$2,000</p>
+              <button aria-label="Add to cart" class="product-list-cart-button">
+                <img src="assets/plusIcon.svg" alt="add" />
+              </button>
+            </div>
+            <button
+              aria-label="Add to favorite"
+              class="product-list-favorite-button"
+            >
+              <img src="assets/heartIcon.svg" alt="Favorite" />
+            </button>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

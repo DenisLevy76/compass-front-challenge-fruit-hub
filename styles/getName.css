@@ -28,23 +28,3 @@ section {
 
   align-items: center;
 }
-
-.input {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  width: min(32rem, 100%);
-}
-
-.input label {
-  color: #27214d;
-  font-weight: 500;
-}
-
-.input input {
-  border: none;
-  background-color: #f7f5f5;
-  font-size: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-}

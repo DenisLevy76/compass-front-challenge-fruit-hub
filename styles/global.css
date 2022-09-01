@@ -16,6 +16,26 @@
   background-color: #ec923e;
 }
 
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: min(32rem, 100%);
+}
+
+.input-label {
+  color: #27214d;
+  font-weight: 500;
+}
+
+.input {
+  border: none;
+  background-color: #f7f5f5;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #c2bdbd;
@@ -30,4 +50,57 @@
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #c2bdbd;
+}
+
+.separator {
+  width: 3.5rem;
+  height: 2px;
+  background-color: #ffa451;
+  margin: 0.5rem 0;
+}
+
+.featured-products {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.products-carousel-filters {
+  display: flex;
+  gap: 0.5rem;
+
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.products-carousel-filter {
+  border: none;
+  background-color: transparent;
+  color: #253f66;
+  font-size: 1rem;
+}
+
+.products-carousel-filter--active {
+  color: #27214d;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.products-carousel-filter--active::after {
+  content: '';
+  width: 3rem;
+  height: 2px;
+  background-color: #ffa451;
+}
+
+.orange {
+  background-color: #fffcf2;
+}
+
+.pink {
+  background-color: #fef4f4;
 }
