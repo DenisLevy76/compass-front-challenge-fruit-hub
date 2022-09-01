@@ -5,6 +5,10 @@ header {
   gap: 1.5rem;
 }
 
+.userName {
+  text-transform: capitalize;
+}
+
 .header-user-content {
   display: flex;
   align-items: center;
@@ -79,6 +83,8 @@ header {
   padding: 0.5rem;
 
   font-size: 0.875rem;
+
+  cursor: pointer;
 }
 
 main {

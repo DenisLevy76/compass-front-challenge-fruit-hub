@@ -7,6 +7,10 @@
   border: none;
   border-radius: 10px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 1rem 0;
 
   font-size: 1rem;

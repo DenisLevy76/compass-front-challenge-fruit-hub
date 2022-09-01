@@ -58,6 +58,8 @@ section p {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  position: relative;
 }
 
 .price-wrapper {
@@ -141,6 +143,13 @@ section p {
   justify-content: space-between;
   gap: 2rem;
   width: 100%;
+
+  position: sticky;
+  bottom: 0;
+  left: 0;
+
+  background-color: white;
+  padding: 0.2rem;
 }
 
 .favorite-button {

@@ -16,21 +16,23 @@
         <img src="assets/basketOfFruit2.png" alt="Basket of fruit" />
       </figure>
       <section>
-        <div class="input-wrapper">
-          <label for="firstName" class="input-label"
-            >What is your first name?</label
-          >
-          <input
-            type="text"
-            name="firstName"
-            id="firstName"
-            class="input"
-            placeholder="Chris"
-          />
-        </div>
-
-        <button class="button">Start Ordering</button>
+        <form onsubmit="handleSubmit(event)">
+          <div class="input-wrapper">
+            <label for="firstName" class="input-label"
+              >What is your first name?</label
+            >
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="input"
+              placeholder="Chris"
+            />
+          </div>
+          <button class="button" type="submit">Start Ordering</button>
+        </form>
       </section>
     </main>
+    <script src="scripts/getName.js"></script>
   </body>
 </html>
