@@ -1,3 +1,3 @@
 const timeout = setTimeout(() => {
   window.location.href = '../description.html';
-}, 5 * 1000); // 5000ms / 5 seconds
+}, 2 * 1000); // 2000ms / 2 seconds
